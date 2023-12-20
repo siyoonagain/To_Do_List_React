@@ -1,7 +1,7 @@
 # To-Do-List
 리액트로 만든 To-Do-List입니다.
 
-<a href='https://to-do-list-react-theta-steel.vercel.app/'>사이트 보러가기/</a>
+<a href='https://to-do-list-react-theta-steel.vercel.app/' target="_blank">사이트 보러가기!</a>
 
 
 ## 👩‍💻역할
