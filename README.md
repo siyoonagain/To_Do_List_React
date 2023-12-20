@@ -19,7 +19,7 @@ styled-component를 활용하여 퍼블리싱을 진행했습니다.
 
 
 DB는 임시로 state에 만들었습니다.
-```
+```js
   // 메모 리스트 DB
   let [listDB, setListDB] = useState([
     { id: 1, content: "리액트 공부", isChecked: false, isEdit: false },
@@ -29,7 +29,9 @@ DB는 임시로 state에 만들었습니다.
 
 
 ### 할일 목록 추가 기능
-```
+
+
+```js
   // 추가기능
   const onClickAdd = () => {
     if (content) {
@@ -54,7 +56,9 @@ DB는 임시로 state에 만들었습니다.
 
 
 ### 추가된 리스트 수정 기능
-```
+
+
+```js
 // 수정기능
   const onClickEdit = (e) => {
     const targetId = e.target.parentNode.parentNode.id;
@@ -83,7 +87,7 @@ DB는 임시로 state에 만들었습니다.
 
 
 ### 삭제 기능
-```
+```js
   // 삭제기능
   const onClickRemove = (e) => {
     // 클릭한 목록의 id를 가져와서 listDB id와 일치하는 리스트를 삭제하기
@@ -100,7 +104,9 @@ DB는 임시로 state에 만들었습니다.
 
 
 ### 오늘의 날짜 기능
-```
+
+
+```js
   // 오늘 날짜 구하기
   const currentDate = new Date();
   const stringDate = currentDate.toDateString();
@@ -112,8 +118,10 @@ DB는 임시로 state에 만들었습니다.
 
 
 ### 해당 리스트의 체크박스를 클릭하면 해당 텍스트에 줄이 그어지는 기능 
+
+
 해당 리스트가 false일 땐 text-decoration:none, true일 땐 text-decoration:line-through 삼항 연산자로 표현했습니다.
-```
+```js
   // 체크하면 밑줄 치는 기능
   const onClickCheck = (e) => {
     const targetId = e.target.parentNode.id;
