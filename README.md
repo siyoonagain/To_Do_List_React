@@ -1,6 +1,8 @@
 # To-Do-List
 리액트로 만든 To-Do-List입니다.
 
+<a href='https://to-do-list-react-theta-steel.vercel.app/'>사이트 보러가기/</a>
+
 
 ## 👩‍💻역할
 토이 프로젝트로 디자인, 퍼블리싱, CRUD 기능을 구현했습니다.
